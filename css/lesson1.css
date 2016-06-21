@@ -1,0 +1,23 @@
+body{
+	margin: 50px 10%; 
+    font-size: 20px;
+	line-height: 30px;	
+}
+.foto, h2 {
+	text-align: center;
+}
+.res-block{
+	border-bottom: 1px solid black;
+	}
+
+img {
+	width: 150px;
+	height: 150px;	
+}
+.resume{
+	text-align: left;
+	margin-left: 3%;
+}
+a{
+	color: blue;
+}
