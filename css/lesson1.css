@@ -1,23 +1,29 @@
-body{
+.content{
 	margin: 50px 10%; 
     font-size: 20px;
 	line-height: 30px;	
 }
-.foto, h2 {
+.foto{
 	text-align: center;
 }
-.res-block{
-	border-bottom: 1px solid black;
+.block{
+	padding-left: 3%;
 	}
-
+.line{
+	border-bottom: 1px solid black;
+}
 img {
 	width: 150px;
 	height: 150px;	
 }
-.resume{
-	text-align: left;
-	margin-left: 3%;
+.last{
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 a{
 	color: blue;
+}
+div[class="block"] div p, div[class="block line"] div p{
+	margin: 0;
+	padding: 0;
 }
