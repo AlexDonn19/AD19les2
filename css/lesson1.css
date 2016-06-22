@@ -16,14 +16,14 @@ img {
 	width: 150px;
 	height: 150px;	
 }
-.last{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
 a{
 	color: blue;
 }
-div[class="block"] div p, div[class="block line"] div p{
+.text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div[class="text"] p{
 	margin: 0;
 	padding: 0;
 }
