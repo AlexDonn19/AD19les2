@@ -1,29 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%; 
+}
+#wrapper{
+	background: #efefef;
+	padding: 5px 5% 5%;
+}
 .content{
-	margin: 50px 10%; 
+	padding: 50px 10% 5%; 
     font-size: 20px;
 	line-height: 30px;	
+	background: white;
+	box-shadow: 0 0 5px #dbdbdb;
 }
-.foto{
+.foto{                
 	text-align: center;
 }
 .block{
-	padding-left: 3%;
+	padding-left: 5%;
 	}
 .line{
 	border-bottom: 1px solid black;
 }
 img {
-	width: 150px;
-	height: 150px;	
+	width: 25%;
+	height: 25%;
+    margin-top: 3%;	
 }
 a{
 	color: blue;
 }
-.text{
-	padding-top: 20px;
-	padding-bottom: 20px;
+.text, h2 {
+	margin: 3% 0;
 }
 div[class="text"] p{
 	margin: 0;
 	padding: 0;
+}
+ul{
+	margin: 3% 0 3% 4%;
 }
